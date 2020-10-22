@@ -1,0 +1,3 @@
+commands:
+  gif_testing:
+    description: testing the gif function.
