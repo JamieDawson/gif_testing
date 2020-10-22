@@ -1,4 +1,13 @@
 // jshint esversion: 9
+
+/**
+ * @description null
+ * @param {ParamsType} params list of command parameters
+ * @param {?string} commandText text message
+ * @param {!object} [secrets = {}] list of secrets
+ * @return {Promise<SlackBodyType>} Response body
+ */
+
 async function _command(params = {}) {
 	const caption = params.varArgs || ''; // for future use, use giphy api
 	return {
